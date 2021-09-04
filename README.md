@@ -27,4 +27,4 @@ rankpoint.rankpad
 ヘルプを表示
 
 ## ダウンロード
-ちょいまってて
+https://github.com/RPbeee/RankPoint/releases/latest
