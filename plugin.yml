@@ -1,0 +1,26 @@
+name: Rankpoint
+version: '${project.version}'
+main: net.kyuukei.rpbeee.rankpoint.Rankpoint
+api-version: 1.17
+load: STARTUP
+authors: [ RPbeee ]
+description: rankpoint system.
+website: ???
+commands:
+  rankpoint:
+    description: rankpoint default command.
+  rankpad:
+    description: rankpoint admin command.
+permissions:
+  rankpoint.*:
+    description: Allows you to run any commands in rankpoint.
+    default: false
+    children:
+      rankpoint.rankpoint: true
+      rankpoint.rankpad: true
+  rankpoint.rankpoint:
+    description: Allows you to run basic commands in rankpoint.
+    default: false
+  rankpoint.rankpad:
+    description: Allows you to run admin commands in rankpoint.
+    default: false
