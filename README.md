@@ -28,3 +28,15 @@ rankpoint.rankpad
 
 ## ダウンロード  
 https://github.com/RPbeee/RankPoint/releases/latest  
+
+
+## config.ymlの内容について  
+config.ymlの前半にはランクごとの必要ポイント、昇格コマンドが設定できます。  
+これの設定は必須です。  
+
+コマンドを設定する時は必ずプレイヤー名が入るところに「%s」を入れてください。
+例:  
+/rankup %s blue  
+
+また、黒に関しては赤の基準ポイントを使って  
+設定していますのでポイントの設定は必要ありません。
